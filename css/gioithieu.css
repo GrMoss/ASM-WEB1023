@@ -1,0 +1,133 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.namemenu{
+    text-align: left;
+    margin-left: 30px;
+    color: rgb(99, 99, 99);
+}
+
+.namemenu a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+.namemenu a:hover{
+    color: rgb(61, 61, 61);
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.container > header{
+    background-color: rgb(227, 17, 17);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.container > header img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cart{
+    position:absolute;
+    right: 30px;
+    top: 10px;
+    width: 30px;
+    
+}
+
+.search{
+    border: solid 0 rgb(218, 218, 218) ;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    padding-left: 10px;
+}
+.searchicon{
+    position: absolute;
+    top: 17px;
+    left: 396px;
+    width: 16px;
+}
+
+.container > nav{
+    line-height: 40px;
+    background-color: rgb(249, 50, 50);
+    color:  white;
+    text-align:  center;
+    margin-top: 50px;
+}
+.container > nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container > nav > a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.box{
+    width: 90%;
+    height: 380px;
+    box-shadow: 0 0 10px rgb(217, 217, 217);
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.box1{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.text1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -320px;
+    margin-left: 610px;
+    width: 50%;
+    color: rgb(80, 80, 80);
+}
+
+.text2{
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 610px;
+    width: 50%;
+    color: rgb(80, 80, 80);
+}
+
+hr{
+    border: solid rgb(214, 214, 214) 0.5px;
+}
+
+.container > .khoangtrang{
+    height: 200px;
+}
+
+.container > footer {
+    /* border-top: 5px solid white;  */
+    line-height: 50px;
+    background-color: rgb(227, 17, 17);
+    text-align: center;
+    color: white;
+    clear: both;
+}
