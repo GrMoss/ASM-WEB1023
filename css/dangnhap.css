@@ -83,6 +83,7 @@
 
 hr{
     border: solid rgb(214, 214, 214) 0.5px;
+    margin-bottom: 20px;
 }
 
 .container > footer {
@@ -134,14 +135,18 @@ hr{
 }
 
 .dangnhap{
-    margin-top: 6px;
-    margin-left: 50px;
     width: 90px;
     height: 30px;
-    border-radius: 8px;
-    border: solid 0;
+    padding: 9px 25px;
     background-color: rgb(225, 225, 225);
+    margin-left: 45px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
 }
+
 
 .dangky {
     width: 90px;
@@ -150,7 +155,7 @@ hr{
     background-color: rgb(225, 225, 225);
     margin-left: 10px;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
